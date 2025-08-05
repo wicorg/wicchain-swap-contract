@@ -1,0 +1,75 @@
+export const configs: { 
+  [name: string]: {
+    WNATIVE: string // address of the wrapped native token for each network
+    nativeCurrencyLabel: string // symbol of the native currency
+    orb: string // ORB token address
+    relayReceiver: string // wallet address to receive native tokens when bridging
+    relayResolver: string // wallet address that signs messages for relay
+    privateKey: string // private key of the wallet deploying the contract
+    rpcUrl: string // RPC URL
+    verifyKey: string // API key used to verify contracts on networks
+    chainId: number // chainId of the network
+    feeProtocolAddress: string // address of the feeProtocol token
+  }
+} = {
+  monchain: {
+    WNATIVE: '',
+    nativeCurrencyLabel: '',
+    orb: '',
+    relayReceiver: '',
+    relayResolver: '',
+    privateKey: '',
+    rpcUrl: '',
+    verifyKey: '',
+    feeProtocolAddress: '',
+    chainId: 16789
+  },
+  bscTestnet: {
+    WNATIVE: '',
+    nativeCurrencyLabel: '',
+    orb: '',
+    relayReceiver: '',
+    relayResolver: '',
+    privateKey: '',
+    rpcUrl: '',
+    verifyKey: '',
+    feeProtocolAddress: '',
+    chainId: 97
+  },
+  sepolia: {
+    WNATIVE: '',
+    nativeCurrencyLabel: '',
+    orb: '',
+    relayReceiver: '',
+    relayResolver: '',
+    privateKey: '',
+    rpcUrl: '',
+    verifyKey: '',
+    feeProtocolAddress: '',
+    chainId: 11155111
+  },
+  arb: {
+    WNATIVE: '',
+    nativeCurrencyLabel: '',
+    orb: '',
+    relayReceiver: '',
+    relayResolver: '',
+    privateKey: '',
+    rpcUrl: '',
+    verifyKey: '',
+    feeProtocolAddress: '',
+    chainId: 421614
+  },
+  polygonAmoy: {
+    WNATIVE: '',
+    nativeCurrencyLabel: '',
+    orb: '',
+    relayReceiver: '',
+    relayResolver: '',
+    privateKey: '',
+    rpcUrl: '',
+    verifyKey: '',
+    feeProtocolAddress: '',
+    chainId: 80002
+  }
+} as const

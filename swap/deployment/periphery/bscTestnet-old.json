@@ -1,0 +1,11 @@
+{
+  "monfactory": "0x00e843420a311f972f68c32d905921d17772b6a6", 
+  "monpooldeployer": "0xea1c0c1478a748a6bdba0e9288e269af0cc4a221", 
+  "SwapRouter": "0xd4D2a2D6fdD9DD28a6B9f74c1d4C42F0FE9cc6BE", 
+  "V3Migrator": "0x714a56ae6EAb0a5afd2ae29d56f2d721d247D678", 
+  "QuoterV2": "0xfcEF8e3b1FCD87D7205d0737cBC651B0734A458d", 
+  "TickLens": "0xBAD4859F63BED16c65e58873f8C11Df1788a87b4", 
+  "NonfungibleTokenPositionDescriptor": "0xdBAD60A80f1ADD255af0fB11EDeF70D146d9620b", 
+  "NonfungiblePositionManager": "0x89342a352f198f4b5726d4B1a6CbA187098EfdE0", 
+  "MonInterfaceMulticall": "0xE1E250Bb58A9E26c7abAe3ED75f11e6699a7c4a9"
+}
